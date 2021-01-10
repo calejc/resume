@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+html > *{
+    background:rgb(209, 224, 224);
+}
+
+@media only screen and (max-width:991px){
+    .main-container{
+        width:100vw;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .main-container{
+        width:70vw;
+        margin:auto;
+    }
+}
