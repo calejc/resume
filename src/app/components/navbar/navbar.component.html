@@ -1,24 +1,22 @@
-<nav class="navbar sticky-top navbar-expand-lg m-4 rounded">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <a class="navbar-brand" routerLink="/">CALE</a>
+<nav class="navbar sticky-top navbar-expand-lg my-4 rounded">
+        <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarToggler">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                 <a class="nav-link active" routerLink="/" routerLinkActive="active">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
+                <a class="nav-link" routerLink="projects" routerLinkActive="active">Projects</a>
                 </li>
             </ul>
-            <div class="d-flex mx-2">
-                <a class="navbar-brand" href="https://github.com/calejc"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a class="navbar-brand"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a class="navbar-brand"><i class="fa fa-gitlab" aria-hidden="true"></i></a>
-                <a class="navbar-brand" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6A%63%40%6D%61%69%6C%62%6F%78%2E%6F%72%67"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            </div>
         </div>
-    </div>
+        <div class="d-flex w-100 order-0">
+            <div class="w-100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <a class="navbar-brand w-100 text-center" routerLink="/" style="font-family: 'Caveat', cursive;font-size:x-large">CALE</a>
+            <span class="w-100"></span>
+        </div>
+        <span class="w-100"></span>
 </nav>

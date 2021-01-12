@@ -1,0 +1,7 @@
+.list-link{
+    text-decoration: none;
+}
+
+.list-link:hover{
+    opacity:0.6;
+}
