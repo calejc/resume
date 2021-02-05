@@ -1,0 +1,17 @@
+<div class="card border-dark mx-auto my-1">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-10">
+                <h4 *ngIf="project.url; else nonLink" class="card-title"><a class="card-link" href="{{project.url}}">{{project.title}}</a></h4>
+                <ng-template #nonLink>  
+                    <h4 class="card-title">{{project.title}}</h4>    
+                </ng-template>
+            </div>
+            <div class="col-2 text-right">
+                <a class="navbar-brand text-dark" href="{{project.repo}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <a class="card-link" *ngIf="project.url"  href="{{project.url}}"><h6 class="card-subtitle mb-2 text-muted">See this project.</h6></a>
+        <p class="card-text my-2">{{project.description}}</p>
+    </div>
+</div>

@@ -11,3 +11,17 @@ a {
 a:hover{
     opacity: 0.5;
 }
+
+$img-w: 30px;
+
+.navbar-brand
+{
+    position:absolute;
+    left: calc(50% - #{$img-w});
+    top:8px;
+}
+
+.nav-brand-img{
+    width: $img-w;
+    height:auto;
+}

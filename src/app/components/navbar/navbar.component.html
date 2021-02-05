@@ -1,22 +1,16 @@
-<nav class="navbar navbar-expand-lg m-4 rounded">
-        <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarToggler">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" routerLink="/" routerLinkActive="active">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" routerLink="projects" routerLinkActive="active">Projects</a>
+<nav class="navbar navbar-expand-lg my-4 rounded">
+    <div class="container-fluid">
+        <a class="navbar-brand font-weight-bold" href="/"><img class="nav-brand-img" src="../../../assets/imgs/cjc-logo.png"></a>
+        <button class="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars text-dark"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLinkActive="active" routerLink="/">Home</a>
                 </li>
             </ul>
         </div>
-        <div class="d-flex w-100 order-0">
-            <div class="w-100">
-                <button class="navbar-toggler mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fa fa-bars text-dark"></i></span>
-                </button>
-            </div>
-            <a class="navbar-brand w-100 text-center" routerLink="/" style="font-family: 'Caveat', cursive;font-size:x-large">CALE</a>
-            <span class="w-100"></span>
-        </div>
-        <span class="w-100"></span>
+
+    </div>
 </nav>

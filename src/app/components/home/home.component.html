@@ -1,10 +1,24 @@
-<div class="card mx-auto mt-5 border-dark" style="width: 18rem;">
-    <img class="card-img-top p-3 rounded" src="../../../assets/imgs/headshot.jpg" alt="Cale Cortney headshot">
-    <div class="card-body">
-        <h5 class="card-title">Cale Cortney</h5>
-        <p class="card-text">Motivated learner with a passion for creating and building solutions.</p>
-            <a class="navbar-brand text-dark" href="https://github.com/calejc"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a class="navbar-brand text-dark" href="https://www.linkedin.com/in/cale-cortney-b78174204"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a class="navbar-brand text-dark" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6A%63%40%6D%61%69%6C%62%6F%78%2E%6F%72%67"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+<div class="row mt-5 ">
+    <div class="col-lg-5 col-md-5 col-sm-5 col-12 my-5">
+        <div class="card border-dark">
+            <div class="card-body">
+                <a class="navbar-brand text-dark" href="https://github.com/calejc"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="navbar-brand text-dark" href="https://www.linkedin.com/in/cale-cortney-b78174204"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a class="navbar-brand text-dark" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6A%63%40%6D%61%69%6C%62%6F%78%2E%6F%72%67"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <img class="card-img-top p-3 rounded" src="../../../assets/imgs/headshot.jpg" alt="Cale Cortney headshot">
+            <div class="card-body">
+                <h5 class="card-title">Cale Cortney</h5>
+                <p class="card-text">Motivated learner with a passion for creating and building solutions.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h2 class="header">Portfolio</h2>
+            </div>
+        </div>
+        <app-card *ngFor="let project of projects" [project]="project"></app-card>
     </div>
 </div>
