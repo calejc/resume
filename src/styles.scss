@@ -1,0 +1,21 @@
+html > *{
+    background: rgb(217, 217, 217)
+}
+
+.card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media only screen and (min-width:992px) {
+    .main-container{
+        width:75vw;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 1312px){
+    .main-container{
+        width:50vw;
+        margin:auto;
+    }
+}
