@@ -11,13 +11,14 @@ export const PROJECTS = [
       description: "Java Spring Boot application to browse movies and their cast, actors and their credits, and more.",
       url: "https://mcc-movies.herokuapp.com/about",
       repo: "https://github.com/calejc/movies-project",
-      stack: ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "H2 Database"]
+      stack: ["Java", "Spring Boot", "Thymeleaf", "Bootstrap"]
     },
     {
-        title: "Blackjack",
-        description: "A command line game of Blackjack.",
-        repo: "https://github.com/calejc/blackjack_cli",
-        stack: ["Java"]
+      title: "Bush League Sports",
+      description: "Various sports data, daily fantasy sports information, and betting odds using python Pandas and Flask.",
+      url: "https://bush-league-sports.herokuapp.com",
+      repo: "https://github.com/calejc/bushleaguesports",
+      stack: ["Python", "Flask", "Pandas", "Bootstrap"]
     },
     {
       title: "Rock, Paper, Scissors",
@@ -34,3 +35,63 @@ export const PROJECTS = [
       stack: ["HTML", "CSS", "Javascript", "Google App Script"]
     },
   ]
+ 
+
+  export const TOOLS = {
+    "HTML": {
+      bgColor: "",
+      color: ""
+    },
+    "CSS": {
+      bgColor: "",
+      color: ""
+    },
+    "Javascript": {
+      bgColor: "",
+      color: ""
+    },
+    "Google App Script": {
+      bgColor: "",
+      color: ""
+    },
+    "Python": {
+      bgColor: "",
+      color: ""
+    },
+    "Flask": {
+      bgColor: "",
+      color: ""
+    },
+    "Pandas": {
+      bgColor: "",
+      color: ""
+    },
+    "Bootstrap": {
+      bgColor: "",
+      color: ""
+    },
+    "Java": {
+      bgColor: "#80bfff",
+      color: ""
+    },
+    "Spring Boot": {
+      bgColor: "",
+      color: ""
+    },
+    "Thymeleaf": {
+      bgColor: "",
+      color: ""
+    },
+    "Firebase": {
+      bgColor: "#ffd633",
+      color: ""
+    },
+    "Angular": {
+      bgColor: "#e60000",
+      color: ""
+    },
+    "Angular-Material": {
+      bgColor: "##6666ff",
+      color: ""
+    },
+  }
