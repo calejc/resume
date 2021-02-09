@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { TOOLS } from '../../data/data';
 
 @Component({
   selector: 'app-card',
@@ -12,6 +13,13 @@ export class CardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.getClass("HTML")
+  }
+
+  getClass(tool: string){
+    let s = TOOLS.find((s) => s.name === tool).class
+    console.log(s)
+    return s
   }
 
 }

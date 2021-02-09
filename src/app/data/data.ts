@@ -35,63 +35,62 @@ export const PROJECTS = [
       stack: ["HTML", "CSS", "Javascript", "Google App Script"]
     },
   ]
- 
 
-  export const TOOLS = {
-    "HTML": {
-      bgColor: "",
-      color: ""
+  export const TOOLS = [
+    {
+      name: 'HTML', 
+      class: 'html'
     },
-    "CSS": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Java", 
+      class: "java"
     },
-    "Javascript": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Javascript", 
+      class: "js"
     },
-    "Google App Script": {
-      bgColor: "",
-      color: ""
+    {
+      name: "CSS", 
+      class: "css"
     },
-    "Python": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Google App Script", 
+      class: "gas"
     },
-    "Flask": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Python", 
+      class: "python"
     },
-    "Pandas": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Flask", 
+      class: "flask"
     },
-    "Bootstrap": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Pandas", 
+      class: "pd"
     },
-    "Java": {
-      bgColor: "#80bfff",
-      color: ""
+    {
+      name: "Bootstrap", 
+      class: "bs"
     },
-    "Spring Boot": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Spring Boot", 
+      class: "spring"
     },
-    "Thymeleaf": {
-      bgColor: "",
-      color: ""
+    {
+      name: "Thymeleaf", 
+      class: "tl"
     },
-    "Firebase": {
-      bgColor: "#ffd633",
-      color: ""
+    {
+      name: "Angular", 
+      class: "angular"
     },
-    "Angular": {
-      bgColor: "#e60000",
-      color: ""
+    {
+      name: "Firebase", 
+      class: "fb"
     },
-    "Angular-Material": {
-      bgColor: "##6666ff",
-      color: ""
-    },
-  }
+    {
+      name: "Angular-Material", 
+      class: "ang-mat"
+    }
+  ]

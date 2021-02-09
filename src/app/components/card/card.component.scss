@@ -8,7 +8,75 @@
     font-weight: bold ;
 }
 
-.badge{
-    color:black!important;
-    background-color:rgb(179, 179, 204)!important;
+// Default: rgb(179, 179, 204)
+
+.html{
+    background-color: #E44D26;
+    color:#EBEBEB;
+    border: .25px solid black;
+}
+
+.js{
+    background-color:#F0DB4F;
+    color:#323330;
+    border: .25px solid #323330;
+}
+
+.css{
+    background-color: #0868AC;
+    color: white;
+    border: .25px solid #131B28;
+}
+
+.bs {
+    background-color: rgb(86, 61, 124);
+    color: white;
+    border: .25px solid black;
+}
+
+.java {
+    background-color: #5382a1; 
+    color:#f89820; 
+    border: .25px solid #f89820;
+}
+
+.spring, .tl{
+    background-color: rgb(57, 172, 57);
+    color:white;
+    border: .25px solid rgb(57, 172, 57);
+}
+
+.python {
+    background-color:#306998;
+    color: #FFD43B;
+    border: .25px solid #646464;
+}
+
+.fb {
+    background-color: #FFCB2B;
+    color: black;
+    border: .25px solid #F5820D
+}
+
+.flask{
+    color: white;
+    background-color: black;
+    border: .25px solid black;
+}
+
+.pd {
+    background-color: #150458;
+    color: #FFCA00; 
+    border: .25px solid #E70488;
+}
+
+.angular {
+    background-color: #B52E31;
+    color: white;
+    border: .25px solid black;
+}
+.ang-mat{
+    background-color: #1a75ff;
+    color: white;
+    border:.5px solid #B52E31;
 }
