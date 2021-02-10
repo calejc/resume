@@ -11,7 +11,7 @@ export const PROJECTS = [
       description: "Java Spring Boot application to browse movies and their cast, actors and their credits, and more.",
       url: "https://mcc-movies.herokuapp.com/about",
       repo: "https://github.com/calejc/movies-project",
-      stack: ["Java", "Spring Boot", "Thymeleaf", "Bootstrap"]
+      stack: ["Java", "Spring Boot", "Bootstrap"]
     },
     // {
     //   title: "Bush League Sports",
