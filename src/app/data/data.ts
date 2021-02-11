@@ -13,13 +13,13 @@ export const PROJECTS = [
       repo: "https://github.com/calejc/movies-project",
       stack: ["Java", "Spring Boot", "Bootstrap"]
     },
-    // {
-    //   title: "Bush League Sports",
-    //   description: "Various sports data, daily fantasy sports information, and betting odds using python Pandas and Flask.",
-    //   url: "https://bush-league-sports.herokuapp.com",
-    //   repo: "https://github.com/calejc/bushleaguesports",
-    //   stack: ["Python", "Flask", "Pandas", "Bootstrap"]
-    // },
+    {
+      title: "Bush League Sports",
+      description: "Various sports data, daily fantasy sports information, and betting odds using python Pandas and Flask.",
+      url: "https://bush-league-sports.herokuapp.com",
+      repo: "https://github.com/calejc/bushleaguesports",
+      stack: ["Python", "Flask", "Pandas", "Bootstrap"]
+    },
     {
       title: "Rock, Paper, Scissors",
       description: "Static version of the classic game, Rock, Paper, Scissors, using vanilla Javascript.",

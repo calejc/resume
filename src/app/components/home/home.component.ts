@@ -9,6 +9,7 @@ import { Project } from 'src/app/data/types/project';
 })
 export class HomeComponent implements OnInit {
 
+  skills = ['Python', 'Java', 'Angular', 'Bash / Linux', 'Git', 'Heroku', 'Firebase']
   projects: Project[] = PROJECTS
 
   constructor() { 

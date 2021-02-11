@@ -13,10 +13,7 @@
             <div class="card-body">
                 <h5 class="card-title">Skills and Compentencies</h5>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item">Java</li>
-                    <li class="list-group-item">Angular</li>
-                    <li class="list-group-item">Bash / Linux</li>
+                    <li *ngFor="let skill of skills" [skill]="skill" class="list-group-item">{{ skill }}</li>
                 </ul>
             </div>
         </div>
