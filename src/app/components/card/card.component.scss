@@ -8,72 +8,103 @@
     font-weight: bold ;
 }
 
-// Default: rgb(179, 179, 204)
+.gcp{
+    background-color: white;
+    border: 2px solid;
+    border-color: #4285F4 #FBBC05 #EA4335 #34A853;
+}
+
+.gcp span:nth-child(6n+1){
+    color: #4285F4;
+}
+
+.gcp span:nth-child(6n+2){
+    color: #EA4335; 
+}
+
+.gcp span:nth-child(6n+3){
+    color: #FBBC05;
+}
+.gcp span:nth-child(6n+4){
+    color: #4285F4;
+}
+.gcp span:nth-child(6n+5){
+    color: #34A853;
+}
+.gcp span:nth-child(6n){
+    color: #EA4335;
+}
+.gcp span:nth-child(n+7){
+    color: #4285F4;
+}
+
+
+
 
 .html{
     background-color: #E44D26;
     color:#EBEBEB;
-    border: .25px solid black;
+    border: 2px solid black;
 }
 
 .js{
     background-color:#F0DB4F;
     color:#323330;
-    border: .25px solid #323330;
+    border: 2px solid #323330;
 }
 
 .css{
     background-color: #0868AC;
     color: white;
-    border: .25px solid #131B28;
+    border: 2px solid #131B28;
 }
 
 .bs {
     background-color: rgb(86, 61, 124);
     color: white;
-    border: .25px solid black;
+    border: 2px solid black;
 }
 
 .java {
     background-color: #5382a1; 
     color:#f89820; 
-    border: .25px solid #f89820;
+    border: 2px solid #f89820;
 }
 
 .spring, .tl{
     background-color: rgb(57, 172, 57);
     color:white;
-    border: .25px solid rgb(57, 172, 57);
+    border: 2px solid rgb(57, 172, 57);
 }
 
 .python {
     background-color:#306998;
     color: #FFD43B;
-    border: .25px solid #646464;
+    border: 2px solid #646464;
 }
 
 .fb {
     background-color: #FFCB2B;
     color: black;
-    border: .25px solid #F5820D
+    border: 2px solid #F5820D
 }
 
 .flask{
     color: white;
     background-color: black;
-    border: .25px solid black;
+    border: 2px solid black;
 }
 
 .pd {
     background-color: #150458;
     color: #FFCA00; 
-    border: .25px solid #E70488;
+    border: 2px solid #E70488;
 }
 
 .angular {
     background-color: #B52E31;
     color: white;
-    border: .25px solid black;
+    border: 2px solid black;
 }
 .ang-mat{
     background-color: #1a75ff;

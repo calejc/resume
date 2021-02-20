@@ -13,6 +13,8 @@
         </div>
         <a class="card-link" *ngIf="project.url"  href="{{project.url}}"><h6 class="card-subtitle mb-2 text-muted">See this project.</h6></a>
         <p class="card-text my-2">{{project.description}}</p>
-        <span *ngFor="let tool of project.stack" [tool]="tool" [ngClass]="getClass(tool)" class="badge mx-1">{{tool}}</span>
+        <span *ngFor="let tool of project.stack" [tool]="tool" [ngClass]="getClass(tool)" class="badge mx-1">
+            <span *ngFor="let c of toList(tool)" [c]="c">{{c}}</span>
+        </span>
     </div>
 </div>

@@ -22,4 +22,13 @@ export class CardComponent implements OnInit {
     return s
   }
 
+  toList(s: string){
+    let stringArray = []
+    for(let i = 0; i < s.length; i++){
+      stringArray.push(s[i]);
+    }
+    console.log(stringArray);
+    return stringArray;
+  }
+
 }

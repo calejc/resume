@@ -14,6 +14,13 @@ export const PROJECTS = [
       stack: ["Java", "Spring Boot", "Bootstrap"]
     },
     {
+      title: "Twitter Thread Unroller",
+      description: "Unrolls a twitter thread, producing a text file available for download.",
+      url: "https://unthreader-i2idck4nea-uc.a.run.app",
+      repo: "https://github.com/calejc/bushleaguesports",
+      stack: ["Python", "Flask", "Google Cloud", "Bootstrap"]
+    },
+    {
       title: "Bush League Sports",
       description: "Various sports data, daily fantasy sports information, and betting odds using python Pandas and Flask.",
       url: "https://bush-league-sports.herokuapp.com",
@@ -92,5 +99,9 @@ export const PROJECTS = [
     {
       name: "Angular-Material", 
       class: "ang-mat"
+    },
+    {
+      name: "Google Cloud", 
+      class: "gcp"
     }
   ]
