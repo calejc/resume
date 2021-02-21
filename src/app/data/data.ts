@@ -4,7 +4,7 @@ export const PROJECTS = [
       description: "Social media application utilizing a Firebase backend and an Angular front-end.",
       url: "https://husqr-1074b.web.app",
       repo: "https://github.com/calejc/husqr",
-      stack: ["Angular", "Firebase", "Bootstrap", "Angular-Material"]
+      stack: ["Angular", "Firebase", "Google Cloud", "Bootstrap", "Angular-Material"]
     },
     {
       title: "Movie Database",
