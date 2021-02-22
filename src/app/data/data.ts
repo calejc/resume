@@ -42,7 +42,6 @@ export const PROJECTS = [
       stack: ["HTML", "CSS", "Javascript", "Google App Script"]
     },
   ]
-  
   export const TOOLS = [
     {
       name: 'HTML', 
