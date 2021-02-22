@@ -18,7 +18,6 @@ export class CardComponent implements OnInit {
 
   getClass(tool: string){
     let s = TOOLS.find((s) => s.name === tool).class
-    console.log(s)
     return s
   }
 
@@ -27,7 +26,6 @@ export class CardComponent implements OnInit {
     for(let i = 0; i < s.length; i++){
       stringArray.push(s[i]);
     }
-    console.log(stringArray);
     return stringArray;
   }
 
