@@ -12,8 +12,8 @@
             </div>
         </div>
         <p class="card-text my-2">{{project.description}}</p>
-        <span *ngFor="let tool of project.stack" [tool]="tool" [ngClass]="getClass(tool)" class="badge mx-1">
-            <span *ngFor="let c of toList(tool)" [c]="c">{{c}}</span>
+        <span *ngFor="let tool of project.stack" [ngClass]="getClass(tool)" class="badge mx-1">
+            <span *ngFor="let c of toList(tool)">{{c}}</span>
         </span>
     </div>
 </div>

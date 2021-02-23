@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { PROJECTS } from '../../data/data'
 
 import { HomeComponent } from './home.component';
 
@@ -16,6 +17,7 @@ describe('HomeComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
+    component.projects = PROJECTS;
     fixture.detectChanges();
   });
 

@@ -9,15 +9,15 @@ import { TOOLS } from '../../data/data';
 export class CardComponent implements OnInit {
 
   @Input() project: any;
+  tools: any = TOOLS;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.getClass("HTML")
   }
 
   getClass(tool: string){
-    let s = TOOLS.find((s) => s.name === tool).class
+    let s = this.tools.find((s) => s.name === tool).class
     return s
   }
 
