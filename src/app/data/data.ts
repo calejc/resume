@@ -21,6 +21,13 @@ export const PROJECTS = [
       stack: ["Python", "Flask", "Google Cloud", "Bootstrap"]
     },
     {
+      title: "Dice Roller",
+      description: "Simple dice rolling game in a React single-page application.",
+      url: "https://dice-roller-a091a.firebaseapp.com/",
+      repo: "https://github.com/calejc/react-dice-roller",
+      stack: ["React", "Firebase", "Google Cloud"]
+    },
+    {
       title: "Bush League Sports",
       description: "Various sports data, daily fantasy sports information, and betting odds using python Pandas and Flask.",
       url: "https://bush-league-sports.herokuapp.com",
@@ -102,5 +109,9 @@ export const PROJECTS = [
     {
       name: "Google Cloud", 
       class: "gcp"
+    },
+    {
+      name: "React",
+      class: "react"
     }
   ]
