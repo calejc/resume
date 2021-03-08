@@ -22,7 +22,7 @@ export const PROJECTS = [
     },
     {
       title: "Dice Roller",
-      description: "Simple dice rolling game in a React single-page application.",
+      description: "Simple dice rolling game in a React single-page application. A basic experiment to see how the useState hook works.",
       url: "https://dice-roller-a091a.firebaseapp.com/",
       repo: "https://github.com/calejc/react-dice-roller",
       stack: ["React", "Firebase", "Google Cloud"]
